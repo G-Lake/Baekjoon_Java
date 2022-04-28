@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class ¾Ë¶÷½Ã°è_2884 {
+public class ì•ŒëžŒì‹œê³„_2884 {
 	public static void main(String[] args) {
    
 		Scanner in = new Scanner(System.in);
 		
-		int H = in.nextInt(); // ½Ã
-		int M = in.nextInt(); // ºÐ
+		int H = in.nextInt(); // ì‹œ
+		int M = in.nextInt(); // ë¶„
 		in.close();
 		
 		if(M < 45) {
-			H--;		// ½Ã(hour) 1 °¨¼Ò
-			M= 60 - (45 - M); 	// ºÐ(min) °¨¼Ò
+			H--;		// ì‹œ(hour) 1 ê°ì†Œ
+			M= 60 - (45 - M); 	// ë¶„(min) ê°ì†Œ
 			if(H < 0) {
 				H = 23;
 			}
